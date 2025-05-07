@@ -1,32 +1,32 @@
-# 📞 Megaline: Análisis de Tarifas
+# 📞 Megaline: Tariff Analysis
 
-## 📝 Contexto
-Megaline es un operador de telecomunicaciones que ofrece dos planes de prepago: **Surf** y **Ultimate**.  
-El objetivo de este proyecto es analizar el comportamiento de 500 clientes a lo largo del 2018 para determinar cuál de las dos tarifas genera mayores ingresos y así optimizar las estrategias comerciales y de publicidad.
+## 📝 Context
+Megaline is a telecommunications operator offering two prepaid plans: **Surf** and **Ultimate**.  
+The goal of this project is to analyze the behavior of 500 customers throughout 2018 to determine which of the two tariffs generates higher revenue, thus optimizing commercial and advertising strategies.
 
-## 🛠️ Herramientas Utilizadas
-- **Python**: Análisis de datos y modelado estadístico.
-- **Pandas** y **NumPy**: Limpieza y transformación de datos.
-- **Matplotlib** y **Seaborn**: Visualización de patrones y tendencias.
-- **SciPy**: Pruebas estadísticas de hipótesis.
-- **Jupyter Notebook**: Documentación del flujo de análisis.
+## 🛠️ Tools Used
+- **Python**: Data analysis and statistical modeling.
+- **Pandas** and **NumPy**: Data cleaning and transformation.
+- **Matplotlib** and **Seaborn**: Visualization of patterns and trends.
+- **SciPy**: Hypothesis testing.
+- **Jupyter Notebook**: Documenting the analysis workflow.
 
-## 📈 Análisis de Resultados
-El proyecto se estructuró en varias fases:
-1. **Preprocesamiento de datos**:
-   - Limpieza de valores atípicos y ausentes.
-   - Conversión de unidades de medición (por ejemplo, minutos y megabytes).
-   - Fusión de cinco tablas para consolidar la información de clientes, llamadas, mensajes, datos móviles y planes.
+## 📈 Results Analysis
+The project was structured in several phases:
+1. **Data Preprocessing**:
+   - Cleaning of outliers and missing values.
+   - Conversion of measurement units (e.g., minutes and megabytes).
+   - Merging of five tables to consolidate customer, call, message, mobile data, and plan information.
 
-2. **Análisis descriptivo**:
-   - Cálculo de ingresos mensuales para cada cliente.
-   - Comparación gráfica de uso y gastos entre los planes Surf y Ultimate.
+2. **Descriptive Analysis**:
+   - Calculation of monthly revenue for each customer.
+   - Graphical comparison of usage and spending between the Surf and Ultimate plans.
 
-3. **Pruebas de hipótesis**:
-   - Evaluación estadística para determinar si las diferencias en ingresos entre planes y regiones son significativas.
+3. **Hypothesis Testing**:
+   - Statistical evaluation to determine whether the differences in revenue between plans and regions are significant.
 
-## 📋 Conclusiones
-- El preprocesamiento adecuado permitió un análisis robusto y confiable.
-- Las gráficas y estadísticas demostraron que el plan **Surf** genera mayores ingresos para la empresa, principalmente porque muchos usuarios exceden las inclusiones del plan y deben pagar costos adicionales.
-- El uso de pruebas de hipótesis brindó soporte estadístico para validar las diferencias observadas, fortaleciendo la recomendación comercial.
-- El análisis destaca la importancia de tomar decisiones basadas en datos para optimizar la oferta de servicios y asignar el presupuesto de marketing de manera más efectiva.
+## 📋 Conclusions
+- Proper preprocessing allowed for a robust and reliable analysis.
+- Graphs and statistics demonstrated that the **Surf** plan generates higher revenue for the company, primarily because many users exceed the plan's inclusions and must pay additional costs.
+- The use of hypothesis testing provided statistical support to validate the observed differences, strengthening the commercial recommendation.
+- The analysis highlights the importance of making data-driven decisions to optimize service offerings and allocate marketing budgets more effectively.
